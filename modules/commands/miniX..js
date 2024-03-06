@@ -13,7 +13,7 @@ module.exports.config = {
 };
 
 module.exports.handleEvent = async function ({ api, event }) {
-    if (!(event.body.indexOf("mini") === 0 || event.body.indexOf("mini") === 0)) return;
+    if (!(event.body.indexOf("Mini") === 0 || event.body.indexOf("mini") === 0)) return;
     const args = event.body.split(/\s+/);
     args.shift();
 
@@ -21,7 +21,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     let tid = threadID,
         mid = messageID;
     const content = encodeURIComponent(args.join(" "));
-    if (!args[0]) return api.sendMessage(" hm bolo bby😸 ...", tid, mid);
+    if (!args[0]) return api.sendMessage(" hmm bolo ami sonchi😒😶", tid, mid);
     try {
         const res = await axios.get(`https://simsimi.fun/api/v2/?mode=talk&lang=bn&message=${content}&filter=true`);
         const respond = res.data.success;

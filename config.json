@@ -6,58 +6,58 @@
     "allowInbox": true,
     "autoClean": false,
     "adminOnly": true,
-    "keyAdminOnly": "ASIFxMASHIA",
+    "keyAdminOnly": "nunu",
     "commandDisabled": [
         "called.js"
     ],
     "eventDisabled": [],
-    "BOTOWNER": "𝗥𝗔𝗦𝗜𝗡",
-    "OWNERLINK": "https://facebook.com/profile.php?id=100088774077764",
-    "OWNERID": "100088774077764",
-    "BOTCREATOR": "Rasin",
-    "AGE": "N/A",
-    "GENDER": "𝗠𝗮𝗟𝗲",
-    "CREATORLINK": "https://facebook.com/profile.php?id=100088774077764",
-    "CREATORID": "100088774077764",
-    "BOTNAME": "𒆜 𝗘𝗩𝗢-𝗘𝗟𝗘𝗖𝗧𝗥𝗢 𒄬",
-    "PREFIX": "-",
+    "BOTOWNER": "Jani na",
+    "OWNERLINK": "owner facebook id link",
+    "OWNERID": "100092569891901",
+    "BOTCREATOR": "bot creator name",
+    "AGE": "type your age",
+    "GENDER": "your gender",
+    "CREATORLINK": "creator id link",
+    "CREATORID": "100092569891901",
+    "BOTNAME": "MINI 2x",
+    "PREFIX": ".",
     "OTHERBOT": [
-        "100083520680035",
-        "",
-        "100090426954912",
-        "100083533891127",
-        "61554374420491",
-        "100088774077764"
+        "100092569891901",
+        "uid",
+        "uid",
+        "uid",
+        "uid",
+        "uid"
     ],
     "UNSENTVIP": [
-        "100083520680035",
-        "100090426954912",
-        "100083533891127",
-        "61554374420491",
-        "7717772931575577",
-        "100088774077764"
+        "100092569891901",
+        "",
+        "uid",
+        "uid",
+        "",
+        ""
     ],
     "ADMINBOT": [
-        "100083520680035",
-        "100090426954912",
-        "100083533891127",
-        "61554374420491",
-        "7717772931575577",
-        "100088774077764"
+        "uid",
+        "uid",
+        "100092569891901",
+        "",
+        "",
+        ""
     ],
     "GOD": [
-        "100083520680035",
-        "100090426954912",
-        "100083533891127",
-        "61554374420491",
-        "7717772931575577",
-        "100088774077764"
+        "uid",
+        "100092569891901",
+        "",
+        "",
+        "",
+        ""
     ],
     "TEST": [
-        "100090426954912",
-        "100083520680035",
-        "7717772931575577",
-        "100088774077764"
+        "uid",
+        "100092569891901",
+        "",
+        ""
     ],
     "Wibu_API": "iyEro7YK",
     "DATABASE": {
@@ -253,5 +253,9 @@
     "ytb": {
         "YOUTUBE_API": "AIzaSyBFNMIC7pTPGo2zBxE8JrF0oPpOpxV6KU8"
     },
-    "ndhOnly": false
+    "ndhOnly": false,
+    "h": {
+        "autoUnsend": "",
+        "delayUnsend": 60
+    }
 }

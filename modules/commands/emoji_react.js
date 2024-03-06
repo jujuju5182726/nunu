@@ -186,17 +186,17 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 
                                     var { threadID, messageID } = event;
 
-                                    if (event.body.indexOf("🥱")==0 || event.body.indexOf("😴")==0 || event.body.indexOf("🥱")==0 || event.body.indexOf("😴")==0) {
+                                    if (event.body.indexOf("meow")==0 || event.body.indexOf("Meow")==0 || event.body.indexOf("meaw")==0 || event.body.indexOf("Meaw")==0) {
 
                                         var msg = {
 
-                                                body: "Ghom pay naki",
+                                                body: "Ghew ghew,,,vao vao vao",
 
                                             }
 
                                             api.sendMessage( msg, threadID, messageID);
 
-                                    api.setMessageReaction("🙄", event.messageID, (err) => {}, true)
+                                    api.setMessageReaction("😂", event.messageID, (err) => {}, true)
 
                                         }
 
@@ -240,7 +240,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 
                                         var { threadID, messageID } = event;
 
-                                    if (event.body.indexOf("i love you")==0 || event.body.indexOf("jaan")==0 || event.body.indexOf("xaan")==0 || event.body.indexOf("jaaanu")==0) {
+                                    if (event.body.indexOf("🥹")==0 || event.body.indexOf("🥹")==0 || event.body.indexOf("🥹")==0 || event.body.indexOf("🥹")==0) {
 
                                         var msg = {
 
@@ -250,7 +250,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 
                                             api.sendMessage( msg, threadID, messageID);
 
-                                    api.setMessageReaction("😓", event.messageID, (err) => {}, true)
+                                    api.setMessageReaction("🥶", event.messageID, (err) => {}, true)
 
                                         }
 

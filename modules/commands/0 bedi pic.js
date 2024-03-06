@@ -3,7 +3,7 @@ module.exports.config = {
   name: "bedi-pic",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Md jahid hasan Rajib",
+  credits: "Tasbiul Islam Rasin",
   description: "Random ảnh gái khi dùng dấu lệnh",
   commandCategory: "Random Image",
   usages: "ig",

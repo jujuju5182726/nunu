@@ -20,8 +20,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var tl = ["আমি আপনাকে কিভাবে সাহায্য করতে পারি...? ","আদেশ করুন বস...🙂","হুম শুনছি আমি আপনি বলুন 😐","Hae jaanu bolo ami sonchi 😌😌","Ji bolen ki korte pari ami apnar jonno...?","bot bot na kore May'be Rasin re akta bow deo 😒☹","আরো ২-৩ বার ডাকো সোনা আমি তোমাকে আস্তে করে স্পেম রিপোর্ট দিয়ে দেই 😋","আদেশ করুন যাহাপানা ","আবার যদি আমারে বট কইয়া ডাক দেছ তাইলে তোর বিয়ে হবে না 🫤😏","Ki kobi ko..somoy nai","তুই বট তোর নানি বট , তোর কত বড় সাহস তুই আমারে বট কস , তোর টা খাই নাকি পড়ি যে তুই আমারে বট কস 😤","আপনার কি চরিত্রে সমস্যা যে এতো বার আমাকে ডাকতেছেন 🤨","ডাকছোত কেন ফাস্ট কো 😒","Eto bot bot na kore  jaan daklei to parta :)"];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
-    if ((event.body.toLowerCase() == "love bot") || (event.body.toLowerCase() == "love bot")) {
-     return api.sendMessage("Hmm... Bot is too shy to love the bot admin :))", threadID);
+    if ((event.body.toLowerCase() == "hmm") || (event.body.toLowerCase() == "hmm")) {
+     return api.sendMessage("hmm=hi marry me😁 :))", threadID);
    };
 
     if ((event.body.toLowerCase() == "oh bot") || (event.body.toLowerCase() == "oh bot")) {
@@ -97,8 +97,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️Swear something dog :) you've been holding on to you for a long time", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bot cc") || (event.body.toLowerCase() == "bot cc")) {
-     return api.sendMessage("️Swear something dog :) you've been holding on to you for a long time", threadID);
+   if ((event.body.toLowerCase() == "🙂🙂") || (event.body.toLowerCase() == "🙂🙂")) {
+     return api.sendMessage("️kha senti kha..aro kha 🙄😒", threadID);
    };
 
    if ((event.body.toLowerCase() == "cc bot") || (event.body.toLowerCase() == "cc bot")) {

@@ -281,8 +281,8 @@ module.exports = function({ api, models }) {
       }
       if (event.body && event.body.startsWith(prefix)) return api.sendMessage(`•〽️𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗜𝗦 𝗡𝗢𝗪 𝗣𝗘𝗡𝗗𝗜𝗡𝗚\n\n💙💫° 𝙸𝚏 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚞𝚜𝚎 𝚋𝚘𝚝 
 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚠𝚒𝚝𝚑 𝙰𝚍𝚖𝚒𝚗!! 
-𝙰𝚍𝚖𝚒𝚗 𝙵𝚋 𝚒𝚍 : https://www.facebook.com/profile.php?id=100083520680035
-🥳😻\n\n𝑻𝒚𝒑𝒆 -request for bot approve in your group.`, event.threadID);
+𝙰𝚍𝚖𝚒𝚗 𝙵𝚋 𝚒𝚍 :admin id link.
+🥳😻\n\n𝑻𝒚𝒑𝒆 -request for approve bot in your group.`, event.threadID);
     };
     switch (event.type) {
       case "message":
